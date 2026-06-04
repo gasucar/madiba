@@ -13,7 +13,7 @@ const config: Config = {
         muted: '#6B7280',
       },
       fontFamily: {
-        sans: ['var(--font-inter)'],
+        sans: ['var(--font-manrope)'],
       },
     },
   },

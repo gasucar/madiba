@@ -16,8 +16,18 @@ export default function HeroSection() {
           width={1920}
           height={1080}
         />
+        
         {/* Overlay azul */}
-        <div className="absolute inset-0 bg-primary/80" />
+        <div
+        className="
+        absolute
+        inset-0
+        bg-linear-to-r
+        from-[#071A35]/90
+        via-[#071A35]/75
+        to-[#071A35]/60
+        "
+        />
       </div>
 
       {/* Contenido */}
