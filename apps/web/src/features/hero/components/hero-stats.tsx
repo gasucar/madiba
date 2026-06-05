@@ -1,22 +1,24 @@
 import { Building2, Home, Ruler } from 'lucide-react'
+import HeroStatNumber from './hero-stat-number'
 
 export default function HeroStats() {
   const stats = [
     {
       icon: <Building2 size={28} color="#CD9E5C" />,
-      value: '24',
+      value: 24,
       label: 'Edificios',
       description: ['entregados en', 'zona oeste'],
     },
     {
       icon: <Home size={28} color="#CD9E5C" />,
-      value: '1.791',
+      value: 1791,
       label: 'Departamentos',
       description: ['entregados'],
     },
     {
       icon: <Ruler size={28} color="#CD9E5C" />,
-      value: '122k',
+      value: 122,
+      suffix: 'k',
       label: 'M² construidos',
       description: ['con altos', 'estándares'],
     },
@@ -42,7 +44,11 @@ export default function HeroStats() {
 
             {/* Número */}
             <p className="text-5xl font-bold text-white">
-              {stat.value}
+              <HeroStatNumber
+                end={stat.value}
+                suffix={stat.suffix}
+                separator="."
+              />
             </p>
 
             {/* Label */}
