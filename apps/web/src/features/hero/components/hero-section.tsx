@@ -2,11 +2,11 @@
 
 import Image from 'next/image'
 import HeroContent from './hero-content'
-import HeroForm from './hero-form'
+import HeroForm from './hero-form/hero-form'
 
 export default function HeroSection() {
   return (
-    <section className="relative h-screen w-full">
+    <section className="relative h-[120vh] w-full">
       {/* Imagen de fondo */}
       <div className="absolute inset-0">
         <Image

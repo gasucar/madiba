@@ -23,9 +23,9 @@ export default function HeroContent() {
         tracking-[-1px]
         "
       >
-        Invertí en tu futuro.
+        Tu nuevo hogar
         <br />
-        Viví mejor hoy.
+        Lo encontras hoy
       </h1>
 
       {/* Descripción */}
