@@ -37,7 +37,8 @@ export default function HeroFormButton() {
       bg-[#CD9E5C]
 
       font-semibold
-      text-lg
+      text-base
+      sm:text-lg
 
       text-[#071A35]
 

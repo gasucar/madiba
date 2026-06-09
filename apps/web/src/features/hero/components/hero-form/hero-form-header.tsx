@@ -2,7 +2,7 @@ import { CalendarDays } from 'lucide-react'
 
 export default function HeroFormHeader() {
   return (
-    <div className="flex items-start gap-5">
+    <div className="flex flex-col sm:flex-row items-start gap-5">
       {/* Icon */}
       <div
         className="

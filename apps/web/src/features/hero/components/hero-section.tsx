@@ -6,7 +6,7 @@ import HeroForm from './hero-form/hero-form'
 
 export default function HeroSection() {
   return (
-    <section className="relative h-[120vh] w-full">
+    <section className="relative min-h-screen lg:h-[120vh] w-full">
       {/* Imagen de fondo */}
       <div className="absolute inset-0">
         <Image
@@ -31,8 +31,8 @@ export default function HeroSection() {
       </div>
 
       {/* Contenido */}
-      <div className="relative z-10 h-full flex items-center">
-        <div className="max-w-7xl mx-auto w-full px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+      <div className="relative z-10 flex items-center min-h-screen pt-32 lg:pt-12">
+        <div className="max-w-7xl mx-auto w-full px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           <HeroContent />
           <HeroForm />
         </div>

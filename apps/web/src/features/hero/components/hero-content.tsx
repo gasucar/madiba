@@ -9,14 +9,14 @@ export default function HeroContent() {
           Real Estate Premium
         </span>
 
-        <div className="h-px w-28 bg-[#CD9E5C]/60" />
+        <div className="hidden md:block h-px w-28 bg-[#CD9E5C]/60" />
       </div>
 
       {/* Título */}
       <h1
         className="
         text-4xl
-        md:text-5xl
+        sm:text-5xl
         xl:text-6xl
         font-bold
         leading-[0.95]
@@ -31,9 +31,11 @@ export default function HeroContent() {
       {/* Descripción */}
       <p
         className="
-        mt-8
+        my-8
         max-w-xl
-        text-xl
+        text-base
+        sm:text-lg
+        md:text-xl
         leading-relaxed
         text-gray-200
         "

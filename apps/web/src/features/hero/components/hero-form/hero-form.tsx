@@ -9,7 +9,10 @@ export default function HeroForm() {
     <div
       className="
       relative
-      ml-auto
+      mx-auto
+      lg:ml-auto
+      mb-10
+      md:mb-0
 
       w-full
       max-w-130
@@ -27,7 +30,9 @@ export default function HeroForm() {
 
       shadow-[0_25px_80px_rgba(0,0,0,0.45)]
 
-      p-10
+      p-6
+      sm:p-8
+      lg:p-10
       "
     >
       <HeroFormHeader />
