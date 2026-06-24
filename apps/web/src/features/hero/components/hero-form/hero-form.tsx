@@ -9,7 +9,7 @@ export default function HeroForm() {
     <div
       className="
       relative
-      mx-auto
+      
       lg:ml-auto
       mb-10
       md:mb-0

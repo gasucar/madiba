@@ -9,10 +9,8 @@ export default function Container({
       mx-auto
       w-full
       max-w-360
-
-      px-5
-      sm:px-6
-      lg:px-8
+      px-6
+      lg:px-20
       "
     >
       {children}
