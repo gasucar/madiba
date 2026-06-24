@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Container from '@/components/ui/container'
 import HeroContent from './hero-content'
 import HeroForm from './hero-form/hero-form'
 
@@ -32,10 +33,12 @@ export default function HeroSection() {
 
       {/* Contenido */}
       <div className="relative z-10 flex items-center min-h-screen pt-32 lg:pt-12">
-        <div className="max-w-7xl mx-auto w-full px-6 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
-          <HeroContent />
-          <HeroForm />
-        </div>
+        <Container>
+          <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <HeroContent />
+            <HeroForm />
+          </div>
+        </Container>
       </div>
     </section>
   )
