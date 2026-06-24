@@ -7,7 +7,7 @@ import HeroForm from './hero-form/hero-form'
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen lg:h-[120vh] w-full">
+    <section className="relative min-h-screen lg:h-[110vh] w-full">
       {/* Imagen de fondo */}
       <div className="absolute inset-0">
         <Image

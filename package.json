@@ -17,5 +17,10 @@
   "packageManager": "pnpm@9.0.0",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "embla-carousel-auto-scroll": "^8.6.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-react": "^8.6.0"
   }
 }

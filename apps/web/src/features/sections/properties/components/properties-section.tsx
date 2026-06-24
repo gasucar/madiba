@@ -5,7 +5,7 @@ import PropertiesHeader from './properties-header'
 export default function PropertiesSection() {
   return (
     <section
-      className="relative min-h-screen lg:h-[120vh] w-full bg-[#071A35]"
+      className="relative min-h-screen lg:h-[110vh] w-full bg-[#071A35]"
     >
       <Container>
         <PropertiesHeader />
@@ -15,5 +15,3 @@ export default function PropertiesSection() {
     </section>
   )
 }
-
-//   bg-[#071A35]
